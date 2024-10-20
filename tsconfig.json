@@ -1,6 +1,8 @@
 {
   "extends": "astro/tsconfigs/strict",
   "compilerOptions": {
+    "module": "es2020", // 或者 es2022, esnext, node16 之类的版本
+    "target": "es2020", // 这里也可以选个更高的版本以匹配 module
     "baseUrl": "src",
     "jsx": "react-jsx",
     "paths": {
