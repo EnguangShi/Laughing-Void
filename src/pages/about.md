@@ -1,36 +1,49 @@
 ---
 layout: ../layouts/AboutLayout.astro
-title: "About"
+title: "我是谁"
 ---
 
-AstroPaper is a minimal, responsive and SEO-friendly Astro blog theme. I designed and crafted this based on [my personal blog](https://satnaing.dev/blog).
+我是谁对你来说重要吗？
 
-This theme is aimed to be accessible out of the box. Light and dark mode are supported by
-default and additional color schemes can also be configured.
+重要：如果我是你重要的人，那你应该知道我是谁。（如果你不知道，那说明我对你来说还不够重要）
 
-This theme is self-documented \_ which means articles/posts in this theme can also be considered as documentations. So, see the documentation for more info.
+不重要：如果我是你无关紧要的人，那你没有必要知道我是谁。
 
-<div>
-  <img src="/assets/dev.svg" class="sm:w-1/2 mx-auto" alt="coding dev illustration">
-</div>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
 
-## Tech Stack
+如果你一定要知道我是谁，给你一些提示：
 
-This theme is written in vanilla JavaScript (+ TypeScript for type checking) and a little bit of ReactJS for some interactions. TailwindCSS is used for styling; and Markdown is used for blog contents.
+我会打字
 
-## Features
+我会中文
 
-Here are certain features of this site.
+我也会一点英文
 
-- fully responsive and accessible
-- SEO-friendly
-- light & dark mode
-- fuzzy search
-- super fast performance
-- draft posts
-- pagination
-- sitemap & rss feed
-- highly customizable
+我是个不❤️直接回答问题的人
 
-If you like this theme, you can star/contribute to the [repo](https://github.com/satnaing/astro-paper).  
-Or you can even give any feedback via my [email](mailto:contact@satnaing.dev).
+如果还是没有解答你的问题，欢迎到页面右下角去查看我提供的链接↘️

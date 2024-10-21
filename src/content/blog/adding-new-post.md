@@ -1,10 +1,10 @@
 ---
 author: Sat Naing
 pubDatetime: 2022-09-23T15:22:00Z
-modDatetime: 2023-12-21T09:12:47.400Z
+modDatetime: 2024-10-21T02:57:35Z
 title: Adding new posts in AstroPaper theme
 slug: adding-new-posts-in-astropaper-theme
-featured: true
+featured: false
 draft: false
 tags:
   - docs
