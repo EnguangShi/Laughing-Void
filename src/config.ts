@@ -1,4 +1,5 @@
 import type { Site, SocialObjects } from "./types";
+import type { GiscusProps } from "@giscus/react";
 
 export const SITE: Site = {
   website: "https://laughing-void.vercel.app/", // replace this with your deployed domain
@@ -12,6 +13,11 @@ export const SITE: Site = {
   postPerPage: 3,
   scheduledPostMargin: 15 * 60 * 1000, // 15 minutes
   showArchives: true,
+  editPost: {
+    url: "https://github.com/EnguangShi/astro-paper/tree/main/src/content/blog",
+    text: "Suggest Changes",
+    appendFilePath: true,
+  },
 };
 
 export const LOCALE = {
@@ -148,3 +154,16 @@ export const SOCIALS: SocialObjects = [
     active: true,
   },
 ];
+
+export const GISCUS: GiscusProps = {
+  repo: "EnguangShi/Laughing-Void",
+  repoId: "R_kgDONCFOBQ",
+  category: "Announcements",
+  categoryId: "DIC_kwDONCFOBc4Cjiha",
+  mapping: "pathname",
+  reactionsEnabled: "1",
+  emitMetadata: "0",
+  inputPosition: "bottom",
+  lang: "en",
+  loading: "lazy",
+};
