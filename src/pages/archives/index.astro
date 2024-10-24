@@ -33,7 +33,7 @@ const MonthMap: Record<string, string> = {
 
 <Layout title={`Archives | ${SITE.title}`}>
   <Header activeNav="archives" />
-  <Main pageTitle="时间轴" pageDesc="所有帖子的历史记录">
+  <Main pageTitle="Archives" pageDesc="All the articles I've archived.">
     {
       Object.entries(
         getPostsByGroupCondition(posts, post =>

@@ -13,6 +13,12 @@ export async function getStaticPaths({ paginate }: GetStaticPathsOptions) {
   return tags.flatMap(({ tag, tagName }) => {
     const tagPosts = getPostsByTag(posts, tag);
 
+    tagPosts.sort(
+      (a, b) =>
+        new Date(a.data.pubDatetime).getTime() -
+        new Date(b.data.pubDatetime).getTime()
+    );
+
     return paginate(tagPosts, {
       params: { tag },
       props: { tagName },

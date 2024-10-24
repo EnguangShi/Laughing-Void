@@ -57,17 +57,17 @@ const { activeNav } = Astro.props;
         <ul id="menu-items" class="display-none sm:flex">
           <li>
             <a href="/posts/" class={activeNav === "posts" ? "active" : ""}>
-              文章
+              Posts
             </a>
           </li>
           <li>
             <a href="/tags/" class={activeNav === "tags" ? "active" : ""}>
-              标签
+              Tags
             </a>
           </li>
           <li>
             <a href="/about/" class={activeNav === "about" ? "active" : ""}>
-              我是谁
+              About
             </a>
           </li>
           {
@@ -99,7 +99,7 @@ const { activeNav } = Astro.props;
                       activeNav === "archives" && "active",
                     ]}
                   >
-                    时间轴
+                    Archives
                   </span>
                 </LinkButton>
               </li>
