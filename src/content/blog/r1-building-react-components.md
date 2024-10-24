@@ -1,7 +1,7 @@
 ---
 author: Eng
 pubDatetime: 2024-10-24T02:26:23Z
-modDatetime:
+modDatetime: 2024-10-24T18:38:37Z
 title: "[React] 1. Building React Components"
 featured: true
 draft: false
