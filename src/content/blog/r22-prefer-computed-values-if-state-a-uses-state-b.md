@@ -1,7 +1,7 @@
 ---
 author: Eng
-pubDatetime: 2024-10-24T02:26:23Z
-modDatetime:
+pubDatetime: 2024-10-24T02:26:44Z
+modDatetime: 2024-10-24T18:36:29Z
 title: "[React] 22. Best Practice: Prefer Computed Values if State A uses State B's"
 featured: false
 draft: false

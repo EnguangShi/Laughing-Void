@@ -1,7 +1,7 @@
 ---
 author: Eng
-pubDatetime: 2024-10-24T02:26:23Z
-modDatetime: 2024-10-24T04:19:31Z
+pubDatetime: 2024-10-24T02:26:41Z
+modDatetime: 2024-10-24T18:36:29Z
 title: "[React] 19. Best Practice: Updating Object State Immutably"
 featured: false
 draft: false

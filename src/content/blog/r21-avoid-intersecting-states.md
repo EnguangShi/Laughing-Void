@@ -1,7 +1,7 @@
 ---
 author: Eng
-pubDatetime: 2024-10-24T02:26:23Z
-modDatetime:
+pubDatetime: 2024-10-24T02:26:43Z
+modDatetime: 2024-10-24T18:36:29Z
 title: "[React] 21. Best Practice: Avoid Intersecting States"
 featured: false
 draft: false

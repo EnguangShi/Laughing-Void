@@ -1,7 +1,7 @@
 ---
 author: Eng
-pubDatetime: 2024-10-24T02:26:23Z
-modDatetime:
+pubDatetime: 2024-10-24T02:26:36Z
+modDatetime: 2024-10-24T18:36:29Z
 title: "[React] 14. Forwarding Props from Wrapper Component"
 featured: false
 draft: false

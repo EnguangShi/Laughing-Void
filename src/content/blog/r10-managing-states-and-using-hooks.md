@@ -1,7 +1,7 @@
 ---
 author: Eng
-pubDatetime: 2024-10-24T02:26:23Z
-modDatetime:
+pubDatetime: 2024-10-24T02:26:32Z
+modDatetime: 2024-10-24T18:36:29Z
 title: "[React] 10. Managing State & Using Hooks"
 featured: false
 draft: false
