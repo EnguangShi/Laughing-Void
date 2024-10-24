@@ -1,13 +1,13 @@
 ---
 author: Eng
 pubDatetime: 2024-10-24T02:26:23Z
-modDatetime:
+modDatetime: 2024-10-24T04:19:31Z
 title: "[React] 19. Best Practice: Updating Object State Immutably"
 featured: false
 draft: false
 tags:
   - React
-description: "The best practices for immutably updating object state in React."
+description: "The best practices for immutably updating object state in React, with examples on why immutability is important."
 ---
 
 This section explains the best practices for updating object state immutably in React, ensuring that objects and arrays are properly copied to prevent direct mutation.
@@ -24,7 +24,7 @@ To avoid this, you should always create a copy of the object or array before mod
 
 ### 2. Example: Copying and Updating an Object
 
-To immutably update an object, use the spread operator (`...`) to create a deep copy (different memory location) of the object before modifying it:
+To immutably update an object, use the spread operator (`...`) to create a shallow copy of the object before modifying it:
 
 ```jsx
 // Correct approach: Create a new object with the spread operator
@@ -60,8 +60,63 @@ const updatedBoard = [
 ];
 ```
 
-This ensures that both the outer array and the inner arrays are copied, preventing accidental mutations of the original data.
+### 5. Example of Why Immutability is Important
 
-### 5. Conclusion
+Let’s look at an example where immutability plays a crucial role. In this case, the `gameBoard` is updated based on `gameTurns`. If the game is over and we set `gameTurns` to empty, we expect the `gameBoard` to also reset. However, without immutability, this doesn’t happen:
+
+```jsx
+const initialGameBoard = [
+  [null, null, null],
+  [null, null, null],
+  [null, null, null],
+];
+
+function App() {
+  const [gameTurns, setGameTurns] = useState([]);
+
+  let gameBoard = initialGameBoard;
+
+  for (const turn of gameTurns) {
+    const { square, player } = turn;
+    const { row, col } = square;
+
+    gameBoard[row][col] = player; // Mutating the initial game board directly
+  }
+}
+```
+
+### 6. Why This Fails
+
+The issue is that we are mutating the `initialGameBoard` directly. When `gameTurns` is set to an empty array, the loop doesn’t run, and the `gameBoard` still holds the last state before the game ended. The mutation persists because `initialGameBoard` was not deep copied.
+
+### 7. The Solution: Deep Copying the Game Board
+
+To solve this, we need to deep copy the `gameBoard` every time `App()` runs, ensuring that a fresh board is created when the game restarts:
+
+```jsx
+const initialGameBoard = [
+  [null, null, null],
+  [null, null, null],
+  [null, null, null],
+];
+
+function App() {
+  const [gameTurns, setGameTurns] = useState([]);
+
+  // Deep copy the game board
+  let gameBoard = [...initialGameBoard.map(array => [...array])];
+
+  for (const turn of gameTurns) {
+    const { square, player } = turn;
+    const { row, col } = square;
+
+    gameBoard[row][col] = player; // Updating a deep copied game board
+  }
+}
+```
+
+By using deep copying, a new empty `gameBoard` will be created when the game restarts, preventing the mutation issue.
+
+### 8. Conclusion
 
 Always use the spread operator or other techniques to create copies of objects and arrays before updating them. This ensures immutability, prevents bugs, and helps React correctly detect changes in state for re-rendering.
