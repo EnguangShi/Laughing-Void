@@ -1,16 +1,16 @@
 ---
 author: Eng
 pubDatetime: 2024-10-24T02:26:42Z
-modDatetime: 2024-10-24T18:36:29Z
+modDatetime: 2024-10-24T19:36:15Z
 title: "[React] 20. Lifting State Up"
 featured: false
 draft: false
 tags:
   - React
-description: "How to lift state up to the parent component in React to share state between child components."
+description: "How and when to lift state up in React, with an example of when not to lift state up."
 ---
 
-This section explains how and why to lift state up to the parent component in React, allowing state to be shared across multiple child components.
+This section explains how to lift state up in React to share state across multiple components and includes an example of when not to lift state up.
 
 ## 目录
 
@@ -68,5 +68,51 @@ function App() {
 
 - **Centralized state management:** By keeping the state in the parent component, it’s easier to track and update.
 - **Consistent state across components:** Since all components receive the same state from a single source, you avoid inconsistencies and redundant state updates.
+
+### 5. When Not to Lift State Up
+
+You should avoid lifting state up when the state is updated very frequently. If the state is lifted, it could cause the parent component to re-render too often, which could negatively impact performance.
+
+```jsx
+export default function Player({ initialName, symbol, isActive }) {
+  const [isEditing, setIsEditing] = useState(false);
+
+  // Avoid lifting up playerName state since it's frequently updated (e.g., on every keystroke)
+  const [playerName, setPlayerName] = useState(initialName);
+
+  function handleChange(event) {
+    setPlayerName(event.target.value);
+  }
+
+  function handleClickEdit() {
+    setIsEditing(state => !state);
+  }
+
+  let editablePlayerName = <span className="player-name">{playerName}</span>;
+
+  if (isEditing) {
+    editablePlayerName = (
+      // Player name is changed on every keystroke, so lifting it up would cause frequent re-renders
+      <input type="text" required value={playerName} onChange={handleChange} />
+    );
+  }
+
+  return (
+    <li className={isActive ? "active" : undefined}>
+      <span className="player">
+        {editablePlayerName}
+        <span className="player-symbol">{symbol}</span>
+      </span>
+      <button onClick={handleClickEdit}>{isEditing ? "Save" : "Edit"}</button>
+    </li>
+  );
+}
+```
+
+### 6. A Better Approach
+
+Instead of lifting the frequently updated `playerName` state, you can create a new state in the `App()` component and only update it when the player clicks the "Save" button. This way, the page will be updated less frequently.
+
+By carefully managing when and how to lift state, you can optimize your app’s performance while ensuring the necessary components receive the state they need.
 
 By lifting state up, you can share and manage state across multiple components efficiently in React.
