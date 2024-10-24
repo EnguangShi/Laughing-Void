@@ -1,8 +1,8 @@
 ---
 author: Eng
 pubDatetime: 2024-10-24T02:26:28Z
-modDatetime: 2024-10-24T18:36:29Z
-title: "[React] 6. Storing Styles next to Components"
+modDatetime: 2024-10-24T18:42:29Z
+title: "[React] 06. Storing Styles next to Components"
 featured: false
 draft: false
 tags:

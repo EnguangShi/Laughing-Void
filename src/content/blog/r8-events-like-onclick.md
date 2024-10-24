@@ -1,8 +1,8 @@
 ---
 author: Eng
 pubDatetime: 2024-10-24T02:26:30Z
-modDatetime: 2024-10-24T18:36:29Z
-title: "[React] 8. Events Like 'onClick'"
+modDatetime: 2024-10-24T18:42:29Z
+title: "[React] 08. Events Like 'onClick'"
 featured: false
 draft: false
 tags:

@@ -1,8 +1,8 @@
 ---
 author: Eng
 pubDatetime: 2024-10-24T02:26:24Z
-modDatetime: 2024-10-24T18:36:29Z
-title: "[React] 2. Component Tree"
+modDatetime: 2024-10-24T18:42:29Z
+title: "[React] 02. Component Tree"
 featured: false
 draft: false
 tags:

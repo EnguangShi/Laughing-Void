@@ -1,8 +1,8 @@
 ---
 author: Eng
 pubDatetime: 2024-10-24T02:26:31Z
-modDatetime: 2024-10-24T18:36:30Z
-title: "[React] 9. Passing Values to Event Functions"
+modDatetime: 2024-10-24T18:42:29Z
+title: "[React] 09. Passing Values to Event Functions"
 featured: false
 draft: false
 tags:
