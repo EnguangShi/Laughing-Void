@@ -9,14 +9,14 @@ title: "Who am I? 我是谁？"
 2. **It feels like a puzzle with 9 missing pieces.**  
    **就像是一个缺少9块拼图的谜题。**
 
-3. Help me find out, but what are we really looking for?  
-   帮我搞清楚，可我们究竟在寻找什么呢？
+3. Help me figure out, what are we really looking for? Is it the light theme in the top right corner?  
+   帮我搞清楚，可我们究竟在寻找什么呢？难道是右上角的浅色主题？
 
 4. Maybe we think there’s some grand answer waiting.  
    也许我们以为有一个伟大的答案在等待着。
 
-5. Every now and then, even small thoughts bring us closer to understanding.  
-   恩，有时候，即使是微小的想法也能让我们更接近理解。
+5. Every now and then, even small changes bring us closer to discovery.  
+   恩，有时候，即使是微小的改变也能让我们更接近发现。
 
 6. Some say life is an endless journey, seeking meaning.  
    有人说人生是一场无尽的旅程，追寻意义。
