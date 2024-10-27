@@ -138,7 +138,7 @@ title: "Who am I? 我是谁？"
 45. Trying to make sense of a world that often makes no sense at all.  
     试图在一个常常没有道理的世界里找到些道理。
 
-46. Musing over such things, I realize they add little meaning.  
+46. Muse on such things ostensibly, and realize they add little meaning.  
     名义上是思考这些事，但我意识到它们增添不了多少意义。
 
 47. You might think I’m playing games, keeping the truth just out of reach.  
