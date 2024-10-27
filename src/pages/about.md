@@ -6,8 +6,8 @@ title: "Who am I? 我是谁？"
 1. I wonder as well. This question has a strange pull.  
    我也想知道啊。这个问题有一种奇怪的吸引力。
 
-2. **It feels like a puzzle with 9 missing pieces.**  
-   **就像是一个缺少9块拼图的谜题。**
+2. **It feels like a puzzle with 9 missing pieces, and this is the first piece.**  
+   **就像是一个缺少9块拼图的谜题，这是第一块。**
 
 3. Help me figure out, what are we really looking for? Is it the light theme in the top right corner?  
    帮我搞清楚，可我们究竟在寻找什么呢？难道是右上角的浅色主题？
@@ -99,7 +99,7 @@ title: "Who am I? 我是谁？"
 32. But remember, every answer only leads to more questions.  
     不过要记住，每一个答案都会引发更多的问题。
 
-33. Many paths may seem appealing, yet few lead anywhere.  
+33. Manifest in many paths, few truly lead anywhere despite their appeal.  
     做出的许多选择看似吸引人，但很少有真正通向目的地的。
 
 34. Who am I? Maybe that’s something you’ll never truly know.  
