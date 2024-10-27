@@ -18,8 +18,8 @@ title: "Who am I? 我是谁？"
 5. Every now and then, even small changes bring us closer to discovery.  
    恩，有时候，即使是微小的改变也能让我们更接近发现。
 
-6. Some say life is an endless journey, seeking meaning.  
-   有人说人生是一场无尽的旅程，追寻意义。
+6. Some say life is an endless Arabian journey, and we seek meaning in numerals.  
+   有人说人生是一场无尽的阿拉伯旅行，我们在数字中追寻意义。
 
 7. But what if there’s no destination? No final answer?  
    可如果没有终点，没有最终答案呢？
@@ -27,8 +27,8 @@ title: "Who am I? 我是谁？"
 8. If someone says they own this website, maybe they do.  
    如果有人说这是他的网站，或许他说得没错。
 
-9. I think maybe they’re just claiming it to feel important.  
-   我觉得或许他只是为了显得重要而已。
+9. I think maybe they’re just claiming it to feel important, but maybe it's less important than this sentence.  
+   我觉得或许他只是为了显得重要而已，但是可能其实都不如这句话重要。
 
 10. And now you want to confirm if it truly belongs to them.  
     然后你想确认这到底是不是他的网站。
