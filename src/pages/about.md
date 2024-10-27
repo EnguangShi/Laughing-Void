@@ -36,8 +36,8 @@ title: "Who am I? 我是谁？"
 11. That’s understandable. We like clarity, don’t we?  
     可以理解嘛，我们都喜欢清楚明了，对吧？
 
-12. I often find myself caught up in the most trivial thoughts.  
-    我经常发现自己陷入一些微不足道的想法中。
+12. People often find myself caught up in the most trivial thoughts.  
+    人们经常发现自己陷入一些微不足道的想法中。
 
 13. But ask yourself—is it really worth the trouble?  
     可扪心自问——真的值得费这个劲吗？
