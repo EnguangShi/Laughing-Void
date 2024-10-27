@@ -81,8 +81,8 @@ title: "Who am I? 我是谁？"
 26. Or would it just raise more questions?  
     还是说这会引发更多的问题？
 
-27. Please feel free to check out all the social media links below.  
-    请随便看看下面所有的相关社媒链接。
+27. Please feel free to browse through all of my articles.  
+    请随便看看我的所有文章。
 
 28. Maybe there are answers scattered in those 46 posts.  
     也许答案就散落在那46个帖子里。
