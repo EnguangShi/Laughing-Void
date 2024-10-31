@@ -3,8 +3,8 @@ layout: ../layouts/AboutLayout.astro
 title: "Who am I? 我是谁？"
 ---
 
-1. I wonder as well. This question has a strange pull.  
-   我也想知道啊。这个问题有一种奇怪的吸引力。
+1. This question is as mysterious as why there are numbers in front of each sentence.  
+   这个问题就像每个句子前面为什么有数字一样神秘。
 
 2. **It feels like a puzzle with 9 missing pieces, and this is the first piece.**  
    **就像是一个缺少9块拼图的谜题，这是第一块。**
@@ -18,8 +18,8 @@ title: "Who am I? 我是谁？"
 5. Every now and then, even small changes bring us closer to discovery.  
    恩，有时候，即使是微小的改变也能让我们更接近发现。
 
-6. Some say life is an endless Arabian journey, and we seek meaning in numerals.  
-   有人说人生是一场无尽的阿拉伯旅行，我们在数字中追寻意义。
+6. Some say life is like an endless Arabian journey, and we seek meaning in the order of numerals.  
+   有人说人生像一场无尽的阿拉伯旅行，我们在数字的顺序中追寻意义。
 
 7. But what if there’s no destination? No final answer?  
    可如果没有终点，没有最终答案呢？
