@@ -6,8 +6,8 @@ title: "Who am I? 我是谁？"
 1. This question is as mysterious as why there are numbers in front of each sentence.  
    这个问题就像每个句子前面为什么有数字一样神秘。
 
-2. **It feels like a puzzle with 9 missing pieces, and this is the first piece.**  
-   **就像是一个缺少9块拼图的谜题，这是第一块。**
+2. **It feels like a puzzle with 9 missing pieces.**  
+   **就像是一个缺少9块拼图的谜题**
 
 3. Help me figure out, what are we really looking for? Is it the light theme in the top right corner?  
    帮我搞清楚，可我们究竟在寻找什么呢？难道是右上角的浅色主题？
@@ -27,8 +27,8 @@ title: "Who am I? 我是谁？"
 8. If someone says they own this website, maybe they do.  
    如果有人说这是他的网站，或许他说得没错。
 
-9. I think maybe they’re just claiming it to feel important, but maybe it's less important than this sentence.  
-   我觉得或许他只是为了显得重要而已，但是可能其实都不如这句话重要。
+9. I think it doesn't matter because you just found the first piece of the puzzle.  
+   我觉得这不重要，因为你刚刚发现了拼图的第一块。
 
 10. And now you want to confirm if it truly belongs to them.  
     然后你想确认这到底是不是他的网站。
