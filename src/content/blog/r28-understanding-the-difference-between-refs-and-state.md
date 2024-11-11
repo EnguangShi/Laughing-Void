@@ -1,0 +1,108 @@
+---
+author: Eng
+pubDatetime: 2024-11-11T23:54:06Z
+modDatetime:
+title: "[React] 28. Understanding the Difference Between Refs and State"
+featured: false
+draft: false
+tags:
+  - React
+description: "A detailed guide explaining the differences between Refs and State in React and when to use each."
+---
+
+This section explains the differences between Refs and State in React, highlighting their purposes and how each affects the component rendering behavior.
+
+## 目录
+
+## Understanding the Difference Between Refs and State
+
+### 1. Why Compare Refs and State?
+
+Both **Refs** and **State** are crucial concepts in React, and they serve different purposes. While they might seem interchangeable in certain scenarios, understanding their differences helps you write more efficient and maintainable React applications.
+
+In scenarios like form handling, you might wonder why not use a Ref instead of State, or vice versa. Let’s examine the differences.
+
+### 2. Key Differences Between Refs and State
+
+#### State
+
+- **State** is used to store values that should trigger a UI update whenever they change.
+- Updating State with its setter function causes the component to re-render.
+- **Use State** when you need the component to react to value changes, like displaying a message based on user input.
+
+#### Refs
+
+- **Refs** are used for directly accessing DOM elements without causing re-renders.
+- Changing a Ref does **not** re-render the component.
+- **Use Refs** when you need to interact with a DOM element, like accessing input values directly without triggering re-renders.
+
+### 3. Example: Why Use State Instead of Ref for UI Updates?
+
+Consider this component where we use a Ref to access an input value. You might wonder why we don’t just store the value directly in the Ref.
+
+#### Example without State (Using Only Ref)
+
+```jsx
+import { useRef } from "react";
+
+export default function Player() {
+  const playerNameRef = useRef();
+
+  return (
+    <section id="player">
+      <h2>
+        Welcome{" "}
+        {playerNameRef.current ? playerNameRef.current.value : "unknown entity"}
+      </h2>
+      <input ref={playerNameRef} type="text" placeholder="Enter name" />
+      <button
+        onClick={() =>
+          playerNameRef.current && (playerNameRef.current.value = "")
+        }
+      >
+        Set Name
+      </button>
+    </section>
+  );
+}
+```
+
+**Problem:** This code will not update the UI with the new name because setting the Ref’s `current` value does not cause the component to re-render.
+
+### 4. Correcting the Example with State
+
+To reflect the input value in the UI, we need to use State. Here’s the updated code:
+
+```jsx
+import { useRef, useState } from "react";
+
+export default function Player() {
+  const inputRef = useRef();
+  const [player, setPlayer] = useState("");
+
+  function handleClick() {
+    setPlayer(inputRef.current.value); // Set state to update UI
+    inputRef.current.value = ""; // Clear input field
+  }
+
+  return (
+    <section id="player">
+      <h2>Welcome {player || "unknown entity"}</h2>
+      <input ref={inputRef} type="text" placeholder="Enter name" />
+      <button onClick={handleClick}>Set Name</button>
+    </section>
+  );
+}
+```
+
+### 5. Why This Works
+
+- **Using State**: The UI updates automatically when `setPlayer` is called, because changing state triggers a re-render.
+- **Using Ref to Clear Input**: We clear the input by setting `inputRef.current.value = ""` without causing a re-render.
+
+### 6. Summary: When to Use State vs. Ref
+
+- **Use State** for values that impact the UI and need to trigger re-renders.
+- **Use Refs** for values that don’t need to trigger re-renders but require direct DOM access.
+
+By understanding these differences, you can decide whether to use State or Ref based on the need for UI updates and reactivity.
