@@ -1,16 +1,16 @@
 ---
 author: Eng
 pubDatetime: 2024-11-11T05:54:34Z
-modDatetime:
+modDatetime: 2024-11-11T23:45:04Z
 title: "[React] 27. Using Refs in React"
 featured: false
 draft: false
 tags:
   - React
-description: "How and when to use Refs in React components, with a focus on simplifying code for reading values."
+description: "How and when to use Refs in React components, with a focus on simplifying code for reading values and handling input resets."
 ---
 
-This section explains how to use Refs in React, highlighting when they are useful, their advantages, and how to simplify component code by using them.
+This section explains how to use Refs in React, highlighting when they are useful, their advantages, and how to simplify component code by using them. Additionally, it covers how to reset input fields with Refs and considerations around React's declarative principles.
 
 ## 目录
 
@@ -81,6 +81,7 @@ export default function Player() {
 
   function handleClick() {
     setPlayer(inputRef.current.value); // Access the input value directly
+    inputRef.current.value = ""; // Clear the input after setting the name
   }
 
   return (
@@ -95,25 +96,38 @@ export default function Player() {
 }
 ```
 
-### 4. Explanation of the Ref-Based Approach
+In this example, we’ve added an extra line to **clear the input field** after setting the player's name by assigning an empty string to `inputRef.current.value`. This approach is efficient but requires careful consideration, as it crosses into imperative DOM manipulation.
+
+### 4. Considerations Around Declarative Code
+
+React is primarily about writing **declarative** code, where you let React handle DOM updates. Using Refs to directly manipulate the DOM, as we did to clear the input field, is more **imperative** and bypasses React’s state-driven rendering.
+
+#### When This is Acceptable
+
+- **Simple Tasks**: For tasks like clearing an input field, which is not tightly connected to other parts of the state, this approach is acceptable as it simplifies code.
+- **Non-React Data Interactions**: If the value doesn’t affect other parts of the UI or application state, using a Ref can be a great way to avoid extra state management.
+
+However, be cautious with this approach. Avoid using Refs to manipulate the DOM for values that should trigger re-renders or affect other parts of the UI.
+
+### 5. Explanation of the Ref-Based Approach
 
 - **Creating the Ref**: `const inputRef = useRef();` creates a reference to store a DOM element, in this case, the input field.
 - **Using the Ref**: `ref={inputRef}` assigns the input element to `inputRef`, making it accessible in the component.
-- **Accessing the Value**: `inputRef.current.value` reads the current value of the input without triggering re-renders.
+- **Accessing and Clearing the Value**: `inputRef.current.value` reads the current value of the input, and assigning `""` to it clears the field.
 
-### 5. Benefits of Using Refs
+### 6. Benefits of Using Refs
 
 - **Reduces Re-Renders**: Since Refs do not cause re-renders, they are ideal for situations where you only need to read a value without reactivity.
 - **Simplifies Code**: Using Refs can reduce the need for additional state management, making the component code more concise.
 - **Direct DOM Access**: Refs allow you to access and interact with DOM elements directly, bypassing React’s reactivity.
 
-### 6. When Not to Use Refs
+### 7. When Not to Use Refs
 
 Avoid using Refs when:
 
 - **Reactivity is required**: If the component should re-render based on the value, use `useState` instead.
 - **You need to share the value across multiple components**: Use props and state for data that needs to be passed to other components.
 
-### 7. Conclusion
+### 8. Conclusion
 
-Refs are a powerful tool in React for direct DOM manipulation and for simplifying code when reactivity is not needed. They allow you to avoid unnecessary state management and reduce re-renders. By understanding when to use Refs, you can create more efficient and concise components in your React applications.
+Refs are a powerful tool in React for direct DOM manipulation and for simplifying code when reactivity is not needed. They allow you to avoid unnecessary state management and reduce re-renders. By understanding when to use Refs and when to rely on React's declarative model, you can create more efficient and concise components in your React applications.
