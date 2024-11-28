@@ -40,18 +40,27 @@ const socialCount = SOCIALS.filter(social => social.active).length;
         </svg>
         <span class="sr-only">RSS Feed</span>
       </a>
-
-      <p>嘻嘻😁，欢迎你来</p>
+      <h2>Welcome to My Personal Website! 🌟</h2>
       <p>
-        I am currently organizing notes on React. If you want to read them in
-        chronological order, please go to Tags and select React to view all the
-        notes.
+        Here, you’ll find my React notes, which I’m actively updating. If you’re
+        also learning React, feel free to check them out—it might help you on
+        your journey!
+      </p>
+      <p>
+        To read them in chronological order, simply go to <a
+          href="/tags"
+          style="text-decoration: underline; color: #007acc;">Tags</a
+        > and select React to view all the notes.
+      </p>
+      <p>
+        I plan to add more content in the future, including notes on topics I’m
+        currently exploring, like meditation. Stay tuned for updates! 😊
       </p>
       {
         // only display if at least one social link is enabled
         socialCount > 0 && (
           <div class="social-wrapper">
-            <div class="social-links">Social Links: </div>
+            <div class="social-links">Links: </div>
             <Socials />
           </div>
         )
