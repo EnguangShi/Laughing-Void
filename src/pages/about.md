@@ -21,7 +21,7 @@ Playing music is my way of meditating, and I also write songs. Here’s one I ma
 
 Jerry is my rescue cat and a clever, gentle companion. He loves playing hide-and-seek (he’s surprisingly good at it), enjoying his favorite tuna-flavored cat sticks, and joining me on occasional walks to explore the world by my side.
 
-![Jerry](../../src/assets/images/jerry.jpg)
+![Jerry](../../src/assets/images/jerry.png)
 
 **More info about me**
 
