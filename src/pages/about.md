@@ -3,7 +3,7 @@ layout: ../layouts/AboutLayout.astro
 title: "About Me"
 ---
 
-<img src="../../src/assets/images/me.png" alt="Me" style="width: 20%;"/>
+<img src="/assets/me.png" alt="Me" style="width: 20%;"/>
 
 **Hello there, I am Enguang Shi. Welcome to my personal website.**
 
