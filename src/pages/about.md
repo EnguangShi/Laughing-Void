@@ -15,13 +15,13 @@ Playing music is my way of meditating, and I also write songs. Here’s one I ma
 
 <iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/1qN7LUXE85z2Zkqqlb5pcp?utm_source=generator" width="100%" height="175" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
 
-![MePlayingGuitar](@assets/images/guitar.jpg)
+![MePlayingGuitar](../../src/assets/images/guitar.jpg)
 
 **Meet Jerry**
 
 Jerry is my rescue cat and a clever, gentle companion. He loves playing hide-and-seek (he’s surprisingly good at it), enjoying his favorite tuna-flavored cat sticks, and joining me on occasional walks to explore the world by my side.
 
-![Jerry](@assets/images/jerry.jpg)
+![Jerry](../../src/assets/images/jerry.jpg)
 
 **More info about me**
 
