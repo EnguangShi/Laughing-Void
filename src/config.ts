@@ -3,7 +3,7 @@ import type { GiscusProps } from "@giscus/react";
 
 export const SITE: Site = {
   website: "https://laughing-void.vercel.app/", // replace this with your deployed domain
-  author: "Eng",
+  author: "Enguang Shi",
   profile: "https://google.com/",
   desc: "A place where I write",
   title: "Enguang Shi",
@@ -37,7 +37,7 @@ export const SOCIALS: SocialObjects = [
     name: "Github",
     href: "https://github.com/EnguangShi",
     linkTitle: ` ${SITE.author} on Github`,
-    active: false,
+    active: true,
   },
   {
     name: "Facebook",

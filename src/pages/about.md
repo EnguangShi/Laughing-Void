@@ -35,7 +35,7 @@ Jerry is my rescue cat and a clever, gentle companion. He loves playing hide-and
 <div class="reusable-component">
   <a href="javascript:void(0)" class="toggle-link" data-button-text="My MBTI">My MBTI</a>
   <div class="details" style="display: none;">
-    <a href="https://www.16personalities.com/entp-personality" target="_blank" rel="noopener noreferrer">ENTP-A</span>
+    <a href="https://www.16personalities.com/entp-personality" target="_blank" rel="noopener noreferrer">ENTP-A</a>
   </div>
 </div>
 
@@ -79,9 +79,9 @@ Jerry is my rescue cat and a clever, gentle companion. He loves playing hide-and
                 const minutes = Math.floor((diff % (1000 * 60 * 60)) / (1000 * 60));
                 const seconds = Math.floor((diff % (1000 * 60)) / 1000);
 
-                dynamicContent.innerHTML = `
-                <span>I am ${years} years, ${days} days, ${hours} hours, ${minutes} minutes, and ${seconds} seconds old.</span>
-                `;
+                dynamicContent.innerHTML = `<span>
+                I am ${years} years, ${days} days, ${hours} hours, ${minutes} minutes, and ${seconds} seconds old.
+                </span>`;
             }, 1000);
           }, 500); // Simulate a short delay
         }
