@@ -1,7 +1,7 @@
 ---
 author: Eng
 pubDatetime: 2024-10-24T02:26:41Z
-modDatetime: 2024-10-24T18:36:29Z
+modDatetime: 2024-11-29T22:34:51Z
 title: "[React] 19. Best Practice: Updating Object State Immutably"
 featured: false
 draft: false
@@ -12,7 +12,7 @@ description: "The best practices for immutably updating object state in React, w
 
 This section explains the best practices for updating object state immutably in React, ensuring that objects and arrays are properly copied to prevent direct mutation.
 
-## 目录
+## Table of Contents
 
 ## Best Practice: Updating Object State Immutably
 

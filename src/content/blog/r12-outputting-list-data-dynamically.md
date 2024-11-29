@@ -1,7 +1,7 @@
 ---
 author: Eng
 pubDatetime: 2024-10-24T02:26:34Z
-modDatetime: 2024-10-24T18:36:29Z
+modDatetime: 2024-11-29T22:34:51Z
 title: "[React] 12. Outputting List Data Dynamically"
 featured: false
 draft: false
@@ -12,7 +12,7 @@ description: "How to dynamically render list data using arrays and the map funct
 
 This section explains how to dynamically render list data in React using arrays and the `.map()` function, ensuring your components update efficiently.
 
-## 目录
+## Table of Contents
 
 ## Outputting List Data Dynamically
 

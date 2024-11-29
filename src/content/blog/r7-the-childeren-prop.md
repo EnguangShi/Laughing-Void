@@ -1,7 +1,7 @@
 ---
 author: Eng
 pubDatetime: 2024-10-24T02:26:29Z
-modDatetime: 2024-10-24T18:42:29Z
+modDatetime: 2024-11-29T22:34:52Z
 title: "[React] 07. The 'children' Prop"
 featured: false
 draft: false
@@ -12,7 +12,7 @@ description: "How to use the 'children' prop to pass content between component t
 
 This section explains how to use the `children` prop in React to pass content between the opening and closing tags of a custom component.
 
-## 目录
+## Table of Contents
 
 ## The 'children' Prop
 

@@ -1,7 +1,7 @@
 ---
 author: Eng
 pubDatetime: 2024-10-24T02:26:36Z
-modDatetime: 2024-10-24T18:36:29Z
+modDatetime: 2024-11-29T22:34:51Z
 title: "[React] 14. Forwarding Props from Wrapper Component"
 featured: false
 draft: false
@@ -12,7 +12,7 @@ description: "How to forward props from a wrapper component to enforce a pattern
 
 This section explains how to forward props from a wrapper component to enforce a specific structure or pattern in React.
 
-## 目录
+## Table of Contents
 
 ## Forwarding Props from Wrapper Component
 

@@ -1,7 +1,7 @@
 ---
 author: Eng
 pubDatetime: 2024-10-24T02:26:35Z
-modDatetime: 2024-10-24T18:36:29Z
+modDatetime: 2024-11-29T22:34:51Z
 title: "[React] 13. When to Split Components"
 featured: false
 draft: false
@@ -12,7 +12,7 @@ description: "Understanding when and why to split your React components for bett
 
 This section explains when and why to split components in React, helping you optimize your app's performance and maintainability.
 
-## 目录
+## Table of Contents
 
 ## When to Split Components
 

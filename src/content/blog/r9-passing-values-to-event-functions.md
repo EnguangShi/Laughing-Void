@@ -1,7 +1,7 @@
 ---
 author: Eng
 pubDatetime: 2024-10-24T02:26:31Z
-modDatetime: 2024-10-24T18:42:29Z
+modDatetime: 2024-11-29T22:34:52Z
 title: "[React] 09. Passing Values to Event Functions"
 featured: false
 draft: false
@@ -12,7 +12,7 @@ description: "How to pass values to event handler functions in React."
 
 This section explains how to pass values to event handler functions, like when clicking a button, in React components.
 
-## 目录
+## Table of Contents
 
 ## Passing Values to Event Functions
 

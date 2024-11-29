@@ -1,7 +1,7 @@
 ---
 author: Eng
 pubDatetime: 2024-10-24T02:26:32Z
-modDatetime: 2024-10-24T18:36:29Z
+modDatetime: 2024-11-29T22:34:51Z
 title: "[React] 10. Managing State & Using Hooks"
 featured: false
 draft: false
@@ -12,7 +12,7 @@ description: "How to manage state in React components using hooks like 'useState
 
 This section explains how to manage state in React components using hooks, such as `useState`, to update the UI when interacting with the app.
 
-## 目录
+## Table of Contents
 
 ## Managing State & Using Hooks
 

@@ -1,7 +1,7 @@
 ---
 author: Eng
 pubDatetime: 2024-10-24T02:26:30Z
-modDatetime: 2024-10-24T18:42:29Z
+modDatetime: 2024-11-29T22:34:52Z
 title: "[React] 08. Events Like 'onClick'"
 featured: false
 draft: false
@@ -12,7 +12,7 @@ description: "How to handle events like 'onClick' in React components."
 
 This section explains how to handle events like `onClick` in React components, allowing you to define behavior when users interact with your app.
 
-## 目录
+## Table of Contents
 
 ## Events Like 'onClick'
 

@@ -1,7 +1,7 @@
 ---
 author: Eng
 pubDatetime: 2024-10-24T02:26:24Z
-modDatetime: 2024-10-24T18:42:29Z
+modDatetime: 2024-11-29T22:34:51Z
 title: "[React] 02. Component Tree"
 featured: false
 draft: false
@@ -12,7 +12,7 @@ description: "Understanding how React components are connected from the HTML to 
 
 This section explains how React components are connected from your main HTML file to the root of your React app and how they are rendered in the browser.
 
-## 目录
+## Table of Contents
 
 ## React Component Tree
 

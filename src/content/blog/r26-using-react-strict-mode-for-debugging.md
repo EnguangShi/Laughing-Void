@@ -1,7 +1,7 @@
 ---
 author: Eng
 pubDatetime: 2024-11-02T00:57:03Z
-modDatetime:
+modDatetime: 2024-11-29T22:34:51Z
 title: "[React] 26. Using React Strict Mode for Debugging"
 featured: false
 draft: false
@@ -12,7 +12,7 @@ description: "A guide on using React Strict Mode to identify potential issues, w
 
 This section introduces React Strict Mode and explains how it can help you identify potential issues in your React applications, with a simplified example using arrays.
 
-## 目录
+## Table of Contents
 
 ## Using React Strict Mode for Debugging
 

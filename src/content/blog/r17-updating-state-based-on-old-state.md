@@ -1,7 +1,7 @@
 ---
 author: Eng
 pubDatetime: 2024-10-24T02:26:39Z
-modDatetime: 2024-10-24T18:36:29Z
+modDatetime: 2024-11-29T22:34:51Z
 title: "[React] 17. Must Do: Updating State Based on Old State"
 featured: false
 draft: false
@@ -12,7 +12,7 @@ description: "The importance of updating state based on the previous state to en
 
 This section explains why it's crucial to update state based on the previous state in React, ensuring your components behave correctly, especially when updates happen rapidly.
 
-## 目录
+## Table of Contents
 
 ## Updating State Based on Old State
 

@@ -1,7 +1,7 @@
 ---
 author: Eng
 pubDatetime: 2024-10-24T02:26:45Z
-modDatetime: 2024-10-24T18:36:29Z
+modDatetime: 2024-11-29T22:34:51Z
 title: "[React] 23. Best Practice: Deriving State from Props"
 featured: false
 draft: false
@@ -12,7 +12,7 @@ description: "How to derive state from props in React to minimize state manageme
 
 This section explains the best practice of deriving state from props in React, allowing you to manage less state and compute values based on existing state.
 
-## 目录
+## Table of Contents
 
 ## Best Practice: Deriving State from Props
 

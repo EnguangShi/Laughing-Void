@@ -1,7 +1,7 @@
 ---
 author: Eng
 pubDatetime: 2024-10-24T02:26:33Z
-modDatetime: 2024-10-24T18:36:29Z
+modDatetime: 2024-11-29T22:34:51Z
 title: "[React] 11. Rendering Content Conditionally"
 featured: false
 draft: false
@@ -12,7 +12,7 @@ description: "How to render content conditionally based on state in React."
 
 This section explains how to render content conditionally in React, based on whether certain conditions are met, such as state values.
 
-## 目录
+## Table of Contents
 
 ## Rendering Content Conditionally
 

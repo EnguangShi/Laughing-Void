@@ -1,7 +1,7 @@
 ---
 author: Eng
 pubDatetime: 2024-10-24T02:26:42Z
-modDatetime: 2024-10-24T19:36:15Z
+modDatetime: 2024-11-29T22:34:51Z
 title: "[React] 20. Lifting State Up"
 featured: false
 draft: false
@@ -12,7 +12,7 @@ description: "How and when to lift state up in React, with an example of when no
 
 This section explains how to lift state up in React to share state across multiple components and includes an example of when not to lift state up.
 
-## 目录
+## Table of Contents
 
 ## Lifting State Up
 

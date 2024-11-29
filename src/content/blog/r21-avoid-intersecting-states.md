@@ -1,7 +1,7 @@
 ---
 author: Eng
 pubDatetime: 2024-10-24T02:26:43Z
-modDatetime: 2024-10-24T18:36:29Z
+modDatetime: 2024-11-29T22:34:51Z
 title: "[React] 21. Best Practice: Avoid Intersecting States"
 featured: false
 draft: false
@@ -12,7 +12,7 @@ description: "Why and how to avoid intersecting states in React components."
 
 This section explains the best practice of avoiding intersecting states in React components, helping you keep state management clear and efficient.
 
-## 目录
+## Table of Contents
 
 ## Best Practice: Avoid Intersecting States
 

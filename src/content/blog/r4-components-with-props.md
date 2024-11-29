@@ -1,7 +1,7 @@
 ---
 author: Eng
 pubDatetime: 2024-10-24T02:26:26Z
-modDatetime: 2024-10-24T18:42:29Z
+modDatetime: 2024-11-29T22:34:52Z
 title: "[React] 04. Components with Props"
 featured: false
 draft: false
@@ -12,7 +12,7 @@ description: "How to pass and use dynamic data in components with props."
 
 This section explains how to pass and use dynamic data in components using props in React.
 
-## 目录
+## Table of Contents
 
 ## Components with Props
 

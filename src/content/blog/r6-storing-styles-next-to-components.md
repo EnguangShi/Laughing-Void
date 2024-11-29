@@ -1,7 +1,7 @@
 ---
 author: Eng
 pubDatetime: 2024-10-24T02:26:28Z
-modDatetime: 2024-10-24T18:42:29Z
+modDatetime: 2024-11-29T22:34:52Z
 title: "[React] 06. Storing Styles next to Components"
 featured: false
 draft: false
@@ -12,7 +12,7 @@ description: "How to store styles next to components for better modularity and s
 
 This section explains how to store styles next to React components to keep your project modular and organized.
 
-## 目录
+## Table of Contents
 
 ## Storing Styles next to Components
 

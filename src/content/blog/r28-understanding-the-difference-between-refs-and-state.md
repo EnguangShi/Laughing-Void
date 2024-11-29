@@ -1,7 +1,7 @@
 ---
 author: Eng
 pubDatetime: 2024-11-11T23:54:06Z
-modDatetime:
+modDatetime: 2024-11-29T22:34:52Z
 title: "[React] 28. Understanding the Difference Between Refs and State"
 featured: false
 draft: false
@@ -12,7 +12,7 @@ description: "A detailed guide explaining the differences between Refs and State
 
 This section explains the differences between Refs and State in React, highlighting their purposes and how each affects the component rendering behavior.
 
-## 目录
+## Table of Contents
 
 ## Understanding the Difference Between Refs and State
 

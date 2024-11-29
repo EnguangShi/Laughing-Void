@@ -1,7 +1,7 @@
 ---
 author: Eng
 pubDatetime: 2024-11-01T18:16:02Z
-modDatetime:
+modDatetime: 2024-11-29T22:34:51Z
 title: "[React] 24. Styling React Components"
 featured: false
 draft: false
@@ -12,7 +12,7 @@ description: "Various methods for styling React components, including CSS, CSS M
 
 This section covers different methods for styling React components, from vanilla CSS to styled-components, including dynamic styles and media queries.
 
-## 目录
+## Table of Contents
 
 ## Styling React Components
 

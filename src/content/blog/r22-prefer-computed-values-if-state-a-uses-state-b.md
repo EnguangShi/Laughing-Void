@@ -1,7 +1,7 @@
 ---
 author: Eng
 pubDatetime: 2024-10-24T02:26:44Z
-modDatetime: 2024-10-24T18:36:29Z
+modDatetime: 2024-11-29T22:34:51Z
 title: "[React] 22. Best Practice: Prefer Computed Values if State A uses State B's"
 featured: false
 draft: false
@@ -12,7 +12,7 @@ description: "Why and how to prefer computed values when one state depends on an
 
 This section explains the best practice of using computed values when one state depends on another, avoiding direct intersections between states.
 
-## 目录
+## Table of Contents
 
 ## Best Practice: Prefer Computed Values if State A uses State B's
 

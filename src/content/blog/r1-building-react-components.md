@@ -1,7 +1,7 @@
 ---
 author: Eng
 pubDatetime: 2024-10-24T02:26:23Z
-modDatetime: 2024-10-24T18:42:29Z
+modDatetime: 2024-11-29T22:34:51Z
 title: "[React] 01. Building React Components"
 featured: true
 draft: false
@@ -12,7 +12,7 @@ description: "A simple guide to understanding and building React components."
 
 This guide introduces you to the foundational concepts of React, helping you understand how to create and use components.
 
-## 目录
+## Table of Contents
 
 ## React Basics
 

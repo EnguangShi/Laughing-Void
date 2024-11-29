@@ -1,7 +1,7 @@
 ---
 author: Eng
 pubDatetime: 2024-10-24T02:26:40Z
-modDatetime: 2024-11-11T02:26:58Z
+modDatetime: 2024-11-29T22:34:51Z
 title: "[React] 18. User Input & Two-Way Binding"
 featured: false
 draft: false
@@ -12,7 +12,7 @@ description: "How to use two-way binding in React to sync user input with compon
 
 This section explains how to implement two-way binding in React, which allows you to sync user input with the component’s state.
 
-## 目录
+## Table of Contents
 
 ## User Input & Two-Way Binding
 

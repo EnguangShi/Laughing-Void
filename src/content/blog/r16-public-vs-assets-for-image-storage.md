@@ -1,7 +1,7 @@
 ---
 author: Eng
 pubDatetime: 2024-10-24T02:26:38Z
-modDatetime: 2024-10-24T18:36:29Z
+modDatetime: 2024-11-29T22:34:51Z
 title: "[React] 16. public/ vs assets/ for Image Storage"
 featured: false
 draft: false
@@ -12,7 +12,7 @@ description: "Understanding the difference between public/ and assets/ for stori
 
 This section explains the difference between the `public/` and `assets/` folders for storing images in a React project, and when to use each one.
 
-## 目录
+## Table of Contents
 
 ## public/ vs assets/ for Image Storage
 

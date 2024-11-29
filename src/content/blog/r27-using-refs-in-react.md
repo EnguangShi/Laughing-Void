@@ -1,7 +1,7 @@
 ---
 author: Eng
 pubDatetime: 2024-11-11T05:54:34Z
-modDatetime: 2024-11-11T23:45:04Z
+modDatetime: 2024-11-29T22:34:51Z
 title: "[React] 27. Using Refs in React"
 featured: false
 draft: false
@@ -12,7 +12,7 @@ description: "How and when to use Refs in React components, with a focus on simp
 
 This section explains how to use Refs in React, highlighting when they are useful, their advantages, and how to simplify component code by using them. Additionally, it covers how to reset input fields with Refs and considerations around React's declarative principles.
 
-## 目录
+## Table of Contents
 
 ## Using Refs in React
 

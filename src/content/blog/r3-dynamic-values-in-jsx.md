@@ -1,7 +1,7 @@
 ---
 author: Eng
 pubDatetime: 2024-10-24T02:26:25Z
-modDatetime: 2024-10-24T18:42:29Z
+modDatetime: 2024-11-29T22:34:52Z
 title: "[React] 03. Dynamic Values in JSX"
 featured: false
 draft: false
@@ -12,7 +12,7 @@ description: "How to use dynamic JavaScript values inside JSX."
 
 This section shows you how to work with dynamic values inside JSX, using JavaScript logic to change what gets rendered in the UI.
 
-## 目录
+## Table of Contents
 
 ## Dynamic Values in JSX
 

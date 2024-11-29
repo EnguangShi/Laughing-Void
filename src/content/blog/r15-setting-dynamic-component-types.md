@@ -1,7 +1,7 @@
 ---
 author: Eng
 pubDatetime: 2024-10-24T02:26:37Z
-modDatetime: 2024-10-24T18:36:29Z
+modDatetime: 2024-11-29T22:34:51Z
 title: "[React] 15. Setting Dynamic Component Types"
 featured: false
 draft: false
@@ -12,7 +12,7 @@ description: "How to set dynamic component types in a wrapper component in React
 
 This section explains how to set dynamic component types in a wrapper component, allowing flexibility in what element or component gets rendered.
 
-## 目录
+## Table of Contents
 
 ## Setting Dynamic Component Types
 

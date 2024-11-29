@@ -1,7 +1,7 @@
 ---
 author: Eng
 pubDatetime: 2024-10-24T02:26:27Z
-modDatetime: 2024-10-24T18:42:29Z
+modDatetime: 2024-11-29T22:34:52Z
 title: "[React] 05. Storing Components in Files"
 featured: false
 draft: false
@@ -12,7 +12,7 @@ description: "How to organize and store React components in separate files for b
 
 This section explains how to organize your React components by storing them in separate files for better maintainability.
 
-## 目录
+## Table of Contents
 
 ## Storing Components in Files
 

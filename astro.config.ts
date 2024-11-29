@@ -22,15 +22,15 @@ export default defineConfig({
       [
         remarkToc,
         {
-          heading: "目录",
+          heading: "Table of Contents",
         },
       ],
       remarkReadingTime,
       [
         remarkCollapse,
         {
-          test: "目录",
-          summary: "浏览目录",
+          test: "Table of Contents",
+          summary: "Open Table of Contents",
         },
       ],
     ],

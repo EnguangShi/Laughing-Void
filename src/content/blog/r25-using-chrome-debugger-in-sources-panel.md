@@ -1,7 +1,7 @@
 ---
 author: Eng
 pubDatetime: 2024-11-02T00:08:56Z
-modDatetime:
+modDatetime: 2024-11-29T22:34:51Z
 title: "[React] 25. Using Chrome Debugger in Sources Panel"
 featured: false
 draft: false
@@ -13,7 +13,7 @@ description: "A guide to using Chrome Browser's built-in debugger in the Sources
 
 This section provides an introduction to using Chrome's Debugger in the Sources panel, focusing on debugging React applications with JSX files.
 
-## 目录
+## Table of Contents
 
 ## Using Chrome Debugger in Sources Panel
 
