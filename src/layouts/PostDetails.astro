@@ -51,10 +51,16 @@ const layoutProps = {
 
 /* ========== Prev/Next Posts ========== */
 
-const allPosts = posts.map(({ data: { title }, slug }) => ({
-  slug,
-  title,
-}));
+const allPosts = posts
+  .sort(
+    (a, b) =>
+      new Date(a.data.pubDatetime).getTime() -
+      new Date(b.data.pubDatetime).getTime()
+  )
+  .map(({ data: { title }, slug }) => ({
+    slug,
+    title,
+  }));
 
 const currentPostIndex = allPosts.findIndex(a => a.slug === post.slug);
 
